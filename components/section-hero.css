@@ -1,0 +1,52 @@
+:root {
+  --white: #F8F9FA;
+  --dark-white: #CED4DA;
+  --black: #343A40;
+  --dark-black: #212529;
+  --brown: #8C5E2D;
+  --light-brown: #AD7335;
+  --gray: #6C757D;
+  --dark-gray: #495057;
+
+
+  --primary: var(--brown);
+  --secondary: var(--light-brown);
+
+  --display-color: var(--brown);
+  --display-highlight-color: var(--white);
+  --desc-color: var(--black);
+  --subtitle-highlight-color: var(--dark-white);
+  --subtitle-color: var(--gray);
+  --title-color: var(--dark-black);
+
+  /* fonts */
+  --poppins: "Poppins", sans-serif;
+}
+
+.home {
+  background-image: url('../src/images/bg-hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 820px;
+}
+
+.bg-full {
+  content: "";
+  background-color: #000;
+  opacity: 70%;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.about{
+  height: 807px;
+}
+.text-span{
+  font-family: var(--poppins);
+  color: var(--black);
+  font-size: 24px;
+}
+.desc{
+  color:var(--black);
+
+}
