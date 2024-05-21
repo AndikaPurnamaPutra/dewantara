@@ -52,6 +52,7 @@ h2 {
   line-height: 60px;
 }
 .desc-title{
+  color: var(--gray);
   font-family: var(--poppins);
   font-size: 16px;
   font-weight: 500;

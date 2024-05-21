@@ -1,13 +1,13 @@
 :root {
-  --white: #F8F9FA;
-  --dark-white: #CED4DA;
-  --black: #343A40;
+  --white: #f8f9fa;
+  --dark-white: #ced4da;
+  --black: #343a40;
   --dark-black: #212529;
-  --brown: #8C5E2D;
-  --light-brown: #AD7335;
-  --gray: #6C757D;
+  --brown: #8c5e2d;
+  --light-brown: #ad7335;
+  --light-grey: #E9ECEF;
+  --gray: #6c757d;
   --dark-gray: #495057;
-
 
   --primary: var(--brown);
   --secondary: var(--light-brown);
@@ -24,7 +24,7 @@
 }
 
 .home {
-  background-image: url('../src/images/bg-hero.png');
+  background-image: url("../public/images/bg-hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 820px;
@@ -38,15 +38,52 @@
   height: 100%;
   z-index: 1;
 }
-.about{
+
+/* section about start */
+.about {
   height: 807px;
 }
-.text-span{
+.about .text-span {
   font-family: var(--poppins);
   color: var(--black);
   font-size: 24px;
 }
-.desc{
-  color:var(--black);
-
+.about .desc {
+  color: var(--black);
 }
+
+.about .wrap-galery {
+  position: relative;
+  grid-template-columns: repeat(2, 1fr) !important;
+}
+
+.about .galery-img {
+  width: 300px !important;
+  height: 300px !important;
+  position: relative;
+}
+
+.about .galery-img img {
+  object-fit: cover;
+}
+/* section about end */
+
+/* section event start */
+.event{
+  background-color: var(--light-grey);
+}
+.event .card .card-img {
+  width: 100%;
+  position: relative;
+}
+
+.event .card .card-body img {
+  width: 24px;
+}
+.event .card .card-body .title{
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--dark-black);
+}
+/* section event end */

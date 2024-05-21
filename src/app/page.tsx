@@ -24,12 +24,43 @@ export default function utilites() {
           </div>
         </div>
       </section>
-      <section className="about">
-        <div className="container">
+      <section className="about py-[72px]">
+        <div className="container mx-auto">
           <div className="content flex items-center justify-between gap-14">
             <div className="content-left">
               <div className="wrap-galery grid grid-cols-2 gap-4">
-                <div className="img-galery"></div>
+                <div className="galery-img">
+                  <Image
+                    layout="fill"
+                    src="/images/gal1.png"
+                    alt=""
+                    objectFit="cover"
+                  />
+                </div>
+                <div className="galery-img">
+                  <Image
+                    layout="fill"
+                    src="/images/gal2.png"
+                    alt=""
+                    objectFit="cover"
+                  />
+                </div>
+                <div className="galery-img">
+                  <Image
+                    layout="fill"
+                    src="/images/gal3.png"
+                    alt=""
+                    objectFit="cover"
+                  />
+                </div>
+                <div className="galery-img">
+                  <Image
+                    layout="fill"
+                    src="/images/gal4.png"
+                    alt=""
+                    objectFit="cover"
+                  />
+                </div>
               </div>
             </div>
             <div className="content-right flex flex-col gap-10 items-start">
@@ -55,6 +86,161 @@ export default function utilites() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      <section className="event py-[72px]">
+        <div className="container mx-auto">
+          <div className="content flex flex-col gap-12">
+            <div className="content-top flex flex-col justify-center items-center gap-1">
+              <h2 className="title">Tentang Kami</h2>
+              <span className="desc-title max-w-[402px] text-center">
+                Jangan lewatkan event-event menarik yang akan diselenggarakan.
+              </span>
+            </div>
+            <div className="content-bottom flex flex-col gap-14 items-center">
+              <div className="wrap-cards flex justify-between gap-6">
+                <div className="card">
+                  <Image
+                    src="/images/event/event1.png"
+                    alt=" "
+                    width={500}
+                    height={500}
+                    className="card-img"
+                  />
+                  <div className="card-body flex flex-col gap-2">
+                    <h4 className="title">Pagelaran Wayang Kulit HARJASDA </h4>
+                    <div className="body-date">
+                      <div className="wrap wrap flex items-center">
+                        <Image
+                          src="/images/icon/Calendar.png"
+                          alt=" "
+                          width={100}
+                          height={100}
+                        />
+                        <span>3 Februari 2024</span>
+                      </div>
+                      <div className="wrap flex items-center">
+                        <Image
+                          src="/images/icon/Location.png"
+                          alt=" "
+                          width={100}
+                          height={100}
+                        />
+                        <span>3 Februari 2024</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="card">
+                  <Image
+                    src="/images/event/event2.png"
+                    alt=" "
+                    width={500}
+                    height={500}
+                    className="card-img"
+                  />
+                  <div className="card-body flex flex-col gap-2">
+                    <h4 className="title">Pagelaran Wayang Kulit HARJASDA </h4>
+                    <div className="body-date">
+                      <div className="wrap wrap flex items-center gap-1">
+                        <Image
+                          src="/images/icon/Calendar.png"
+                          alt=" "
+                          width={100}
+                          height={100}
+                        />
+                        <span>3 Februari 2024</span>
+                      </div>
+                      <div className="wrap flex items-center gap-1">
+                        <Image
+                          src="/images/icon/Location.png"
+                          alt=" "
+                          width={100}
+                          height={100}
+                        />
+                        <span>3 Februari 2024</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="card">
+                  <Image
+                    src="/images/event/event3.png"
+                    alt=" "
+                    width={500}
+                    height={500}
+                    className="card-img"
+                  />
+                  <div className="card-body flex flex-col gap-2">
+                    <h4 className="title">Pagelaran Wayang Kulit HARJASDA </h4>
+                    <div className="body-date">
+                      <div className="wrap wrap flex items-center gap-1">
+                        <Image
+                          src="/images/icon/Calendar.png"
+                          alt=" "
+                          width={100}
+                          height={100}
+                        />
+                        <span>3 Februari 2024</span>
+                      </div>
+                      <div className="wrap flex items-center gap-1">
+                        <Image
+                          src="/images/icon/Location.png"
+                          alt=" "
+                          width={100}
+                          height={100}
+                        />
+                        <span>3 Februari 2024</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="card">
+                  <Image
+                    src="/images/event/event4.png"
+                    alt=" "
+                    width={500}
+                    height={500}
+                    className="card-img"
+                  />
+                  <div className="card-body flex flex-col gap-2">
+                    <h4 className="title">Pagelaran Wayang Kulit HARJASDA </h4>
+                    <div className="body-date">
+                      <div className="wrap wrap flex items-center gap-1">
+                        <Image
+                          src="/images/icon/Calendar.png"
+                          alt=" "
+                          width={100}
+                          height={100}
+                        />
+                        <span>3 Februari 2024</span>
+                      </div>
+                      <div className="wrap flex items-center gap-1">
+                        <Image
+                          src="/images/icon/Location.png"
+                          alt=" "
+                          width={100}
+                          height={100}
+                        />
+                        <span>3 Februari 2024</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="#" className="btn btn-primary">
+                Jelajahi
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="wayang">
+        <div className="container mx-auto">
+          <div className="content-top flex items-center justify-between">
+            <h2 className="title">Wayang</h2>
+          </div>
+          <div className="content-bottom"></div>
         </div>
       </section>
     </>
