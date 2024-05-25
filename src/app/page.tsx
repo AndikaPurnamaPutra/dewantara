@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import "../../src/utillity/utilities.css";
 import "../../components/section-hero.css";
 import "../../components/buttons.css";
@@ -237,10 +238,130 @@ export default function utilites() {
       </section>
       <section className="wayang">
         <div className="container mx-auto">
-          <div className="content-top flex items-center justify-between">
-            <h2 className="title">Wayang</h2>
+          <div className="content-top flex flex-col items-center justify-between gap-12">
+            <div className="subtext flex flex-col items-center gap-1">
+              <h2 className="title">Wayang</h2>
+              <span className="desc-title max-w-[402px] text-center">
+                Jelajahi dunia perwayangan agar lebih mengenal wayang di
+                Indonesia
+              </span>
+            </div>
+            <div className="wrap-search flex items-center gap-4">
+              <form action="" className="search flex">
+                <input type="search" placeholder="Masukan Disini" />
+                <Link href="" className="btn btn-search gap-3">
+                  <Image
+                    layout="fill"
+                    src="/images/button/search.png"
+                    alt=""
+                    objectFit="cover"
+                  />
+                  Cari
+                </Link>
+              </form>
+              <Link href="" className="btn btn-scan gap-3">
+                <Image
+                  layout="fill"
+                  src="/images/button/scan.png"
+                  alt=""
+                  objectFit="cover"
+                />
+                Scan Disini
+              </Link>
+            </div>
           </div>
-          <div className="content-bottom"></div>
+          <div className="content-bottom">
+            <div className="wrap-card grid grid-cols-4 gap-2">
+              <div className="card">
+                <div className="card-img">
+                  <Image
+                    layout="fill"
+                    src="/images/wayang/yudistira.png"
+                    alt=""
+                    objectFit="cover"
+                  />
+                </div>
+
+                <div className="card-body">
+                  <div className="subtext">
+                    <h4 className="title">Puntadewa</h4>
+                    <span className="subtitle">Wayang Kulit</span>
+                  </div>
+                  <a href="#" className="btn btn-icon">
+                    <img src="" alt="" />
+                  </a>
+                </div>
+              </div>
+              <div className="card">
+                <div className="card-img">
+                  <Image
+                    layout="fill"
+                    src="/images/wayang/bima.png"
+                    alt=""
+                    objectFit="cover"
+                  />
+                </div>
+
+                <div className="card-body">
+                  <div className="subtext">
+                    <h4 className="title">Werkudara</h4>
+                    <span className="subtitle">Wayang Kulit</span>
+                  </div>
+                  <a href="#" className="btn btn-icon">
+                    <img src="" alt="" />
+                  </a>
+                </div>
+              </div>
+              <div className="card">
+                <div className="card-img">
+                  <Image
+                    layout="fill"
+                    src="/images/wayang/arjuna.png"
+                    alt=""
+                    objectFit="cover"
+                  />
+                </div>
+
+                <div className="card-body">
+                  <div className="subtext">
+                    <h4 className="title">Arjuna</h4>
+                    <span className="subtitle">Wayang Kulit</span>
+                  </div>
+                  <a href="#" className="btn btn-icon">
+                    <img src="" alt="" />
+                  </a>
+                </div>
+              </div>
+              <div className="card">
+                <div className="card-img">
+                  <Image
+                    layout="fill"
+                    src="/images/wayang/nakula-sadewa.png"
+                    alt=""
+                    objectFit="cover"
+                  />
+                </div>
+
+                <div className="card-body flex flex-col">
+                  <div className="subtext">
+                    <h4 className="title">Nakula</h4>
+                    <span className="subtitle">Wayang Kulit</span>
+                  </div>
+                  <Link href="" className="btn btn-icon gap-3">
+                    <Image
+                      layout="fill"
+                      src="/images/button/panah.png"
+                      alt=""
+                      objectFit="cover"
+                    />
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <a href="#" className="btn btn-primary">
+              Jelajahi
+            </a>
+          </div>
         </div>
       </section>
     </>

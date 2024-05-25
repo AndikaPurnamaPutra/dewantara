@@ -42,6 +42,27 @@ h2 {
   line-height: 60px;
   font-weight: 700;
 }
+
+h4 {
+  font-family: var(--poppins);
+  font-size: 14px;
+  color: var(--dark-black);
+  font-weight: 600;
+}
+
+span {
+  font-family: var(--poppins);
+  font-size: 14px;
+  color: var(--black);
+  font-weight: 500;
+}
+.card-body .subtext .subtitle {
+  font-family: var(--poppins);
+  font-size: 14px;
+  color: var(--gray);
+  font-weight: 500;
+  line-height: unset;
+}
 .subtitle,.desc-title{
   color:var(--subtitle-highlight-color);
 }
@@ -57,4 +78,10 @@ h2 {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
+}
+.wayang.card.card-body.subtitle{
+  font-family: var(--poppins);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
 }

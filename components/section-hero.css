@@ -39,6 +39,12 @@
   z-index: 1;
 }
 
+.img-galery {
+  content: "";
+  width: 282px !important;
+  height: 318px !important;
+  background-image: url(../public/images/bg-hero.png);
+}
 /* section about start */
 .about {
   height: 807px;
@@ -87,3 +93,17 @@
   color: var(--dark-black);
 }
 /* section event end */
+/* section wayang start */
+.wayang .card .card-img {
+  width: 100%;
+  position: relative;
+}
+
+.wayang .card .card-img img {
+  width: 183px;
+  position: relative !important;
+}
+
+.wayang .card .card-body img {
+  width: 24px;
+}

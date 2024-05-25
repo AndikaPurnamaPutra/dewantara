@@ -41,9 +41,40 @@
   color: var(--white);
 }
 
-.img-galery {
-  content: "";
-  width: 282px !important;
-  height: 318px !important;
-  background-image: url(../public/images/bg-hero.png);
+
+.btn-search {
+  padding: 12px 20px;
+  background-color: var(--primary);
+  border-radius: 0 8px 8px 0;
+  color: var(--white);
+}
+.btn-search img {
+  position: relative !important;
+  max-width: 24px !important;
+}
+.btn-scan {
+  padding: 10px 14px;
+  border: 1px solid var(--primary);
+  border-radius: 8px;
+  color: var(--primary);
+}
+
+.btn-scan img {
+  position: relative !important;
+  max-width: 24px !important;
+}
+
+.wrap-search .search {
+  border: 1px solid #ADB5BD;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.wrap-search input{
+  width: 504px;
+  padding-inline: 16px;
+}
+
+.wrap-search input:focus {
+  outline: none;
 }
